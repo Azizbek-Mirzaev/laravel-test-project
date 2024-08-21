@@ -1,6 +1,4 @@
-Hello World <br>
-<br>Nado Podkachatsya!!! <br>
-<br>mozgi kachay!!!
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

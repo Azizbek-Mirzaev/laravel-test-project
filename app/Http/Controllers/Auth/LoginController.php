@@ -25,4 +25,12 @@ class LoginController extends Controller
         //return view("auth.login");
        //dump('Login page'); // return view("admin.index");
     }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('login');
+        // dd('logout');
+
+    }
 }
